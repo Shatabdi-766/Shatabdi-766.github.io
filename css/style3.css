@@ -1,0 +1,71 @@
+
+    .testimonial-item {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .testimonial-item:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    }
+
+    .testimonial-icon {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: white;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-item img {
+        border: 3px solid #007bff; /* Add border to testimonial images */
+    }
+
+    .hover-text {
+        font-size: 1.25rem;
+        color: #6c757d; /* Muted color */
+        line-height: 1.6;
+        transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+        cursor: pointer; /* Change cursor to pointer */
+    }
+
+    .hover-text:hover {
+        color: #007bff; /* Change color on hover */
+        transform: scale(1.02); /* Slight zoom effect */
+    }
+
+    
+    h1.display-5 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #007bff; /* Primary color */
+        margin-bottom: 20px; /* Space below the heading */
+    }
+
+    p.lead {
+        font-size: 1.25rem;
+        color: #6c757d; /* Muted color */
+        line-height: 1.6;
+        text-align: justify; /* Justify text */
+    }
+
+    /* Custom CSS for further adjustments */
+.text-left {
+    text-align: left !important;
+}
+
+.text-lg-end {
+    text-align: right !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
